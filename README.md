@@ -17,7 +17,7 @@ hwp파일을  OpenDocumentText (ODT)형식으로 변환 할 수 있습니다.
 저장은 ODT 형식으로만 저장할 수 있습니다.
 
 * 확장 바이너리 사용은 무료이며, 편하게 사용하시면 됩니다. 
-* 오류나 불편사항은 이 github(https://github.com/k2webtech/hwp2odt)의 issue에 등록해주시면 주기적으로 개선하겠습니다.
+* 오류나 불편사항은 이 github (https://github.com/k2webtech/hwp2odt) 의 issue에 등록해주시면 주기적으로 개선하겠습니다.
 
 ## 알려진 이슈[Known Issue]
 * LibreOffice 7.1.x 에서의 변환 품질 대비 LibreOffice 7.2.x 에서의 변환 품질이 저하됨
