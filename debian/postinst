@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ -d "opt/libreoffice7.1" ]; then
+	ln -s /usr/lib/libreoffice/share/extensions/Hwp2Odt /opt/libreoffice7.1/share/extensions/
+fi
