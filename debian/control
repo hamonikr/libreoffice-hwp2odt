@@ -1,0 +1,16 @@
+Source: libreoffice-hwp2odt
+Section: utils
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>=10), build-essential
+Standards-Version: 4.1.0
+
+Package: libreoffice-hwp2odt
+Architecture: all
+Conflicts: 
+Replaces: 
+Depends: libreoffice, libreoffice-writer
+Description: Hwp2Odt is LibreOffice extension that import Hwp file and present in OpenDocumentText format.
+    We release extension binary, but we don't open source code.
+    If you post any errors or bugs in use here on github, we will improve it and distribute it periodically.
+    (https://github.com/k2webtech/hwp2odt)

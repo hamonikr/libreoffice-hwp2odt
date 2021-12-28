@@ -1,0 +1,100 @@
+libreoffice-hwp2odt (0.3.5+hamonikr1) stable; urgency=medium
+
+  * 하모니카 데비안 패키지 릴리즈 (focal)
+  * 버전은 https://github.com/k2webtech/hwp2odt 바이너리 파일 릴리즈 버전을 따라갑니다.
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 28 Dec 2021 13:52:22 +0900
+
+libreoffice-hwp2odt (0.3.5) stable; urgency=medium
+
+  * 글상자 내 테이블 그릴때 셀 높이(height)값 적용하여 표현
+  * 페이지 영역 밖의 개체는 무시하도록 수정
+  * 페이지 마진 계산시 header/footer 포함하도록 수정
+
+ -- K2Web <unknown@unknown.com>  Tue, 28 Dec 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.3.4) stable; urgency=medium
+
+  * Hwp호환문서 레코드 없을때 기본값으로 동작하도록 변경
+
+ -- K2Web <unknown@unknown.com>  Thu, 09 Dec 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.3.3) stable; urgency=medium
+
+  * Hwp 호환 문서에 따라 리브레오피스 문단 간격 가중치 변경
+
+ -- K2Web <unknown@unknown.com>  Wed, 09 Dec 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.3.2) stable; urgency=medium
+
+  * Hwp 문단 간격 고정값일때 리브레오피스 단위로 계산 적용
+  * Hwp 컨테이너에 다각형있고, 다각형내 테이블 있는 경우, 처리 
+
+ -- K2Web <unknown@unknown.com>  Wed, 17 Nov 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.3.1) stable; urgency=medium
+
+  * 인식하지 못하는 컨트롤에서 예외를 발생시키지 않고 건너뛰도록 수정
+
+ -- K2Web <unknown@unknown.com>  Wed, 17 Nov 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.3.0) stable; urgency=medium
+
+  * 파일내 삽입된 그림이 다른 그림으로 보이는 오류 수정
+
+ -- K2Web <unknown@unknown.com>  Wed, 10 Nov 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.2.6) stable; urgency=medium
+
+  * 구현되지 않은 컨트롤(tcmt) 포함된 문서 열리지 않는 문제 (추가)수정 
+  * 컴파운드파일 읽을때 섹터값 FREESECT(0xFFFFFFFF)처리. 일부 문서 불러오지 못하는 문제 수정.
+
+ -- K2Web <unknown@unknown.com>  Wed, 03 Nov 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.2.5) stable; urgency=medium
+
+  * 구현되지 않은 컨트롤(tcmt) 포함된 문서 열리지 않는 문제 수정
+  * 문서내 이미지 읽히지 않더라도 이미지 빼고 불러들이도록 수정
+
+ -- K2Web <unknown@unknown.com>  Wed, 27 Oct 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.2.4) stable; urgency=medium
+
+  * 문서에 한컴 전용폰트 사용시 나눔폰트로 대체 (나눔폰트 설치되었을 경우)
+  * 테이블내 한개 문단내 여러 문자모양 사용시  여러 문자모양 표현될 수 있도록 수정
+  * 문단 내어쓰기 수정 (한컴방식과 LibreOffice 표현 방식 차이점 수정)
+  * 문서버전 5.0.2.2 에서 Picture 컨트롤 읽기 크기 오류 수정
+
+ -- K2Web <unknown@unknown.com>  Mon, 20 Sep 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.2.3) stable; urgency=medium
+
+  * 변환 안되는 옛 문서들을 위해, byte수 맞지 않을때 Exception 처리 막음.
+
+ -- K2Web <unknown@unknown.com>  Wed, 04 Aug 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.2.2) stable; urgency=medium
+
+  * $col (개체연결선) 컨트롤이 있는 문서 변환이 안되는 현상 수정
+
+ -- K2Web <unknown@unknown.com>  Wed, 04 Aug 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.2.1) stable; urgency=medium
+
+  * 칼럼수가 26개 보다 많은 테이블 그려지지 않는 현상 수정
+  * 머지된 셀이 있는 테이블에서 셀 테두리가 잘못 그려지는 현상 수정
+
+ -- K2Web <unknown@unknown.com>  Thu, 23 Jul 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.2.0) stable; urgency=medium
+
+  * 1개 문단내 여러 개의 글자모양이 있을때 처리
+
+ -- K2Web <unknown@unknown.com>  Fri, 16 Jul 2021 00:00:00 +0900
+
+libreoffice-hwp2odt (0.1.0) stable; urgency=medium
+
+  * 최초 배포
+  * Hwp 파일을 ODT 포맷으로 변환
+
+ -- K2Web <unknown@unknown.com>  Thu, 08 Jul 2021 00:00:00 +0900
