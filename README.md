@@ -1,6 +1,6 @@
 # hwp2odt
 
-* 원본 프로젝트는 다음 주소(https://github.com/k2webtech/hwp2odt)에서 확인 부탁드립니다.
+* 원본 프로젝트는 다음 주소(https://github.com/k2webtech/hwp2odt) 에서 확인 부탁드립니다.
 * 다음 프로젝트는 원본 프로젝트의 바이너리를 데비안 패키지로 만들어 쉽게 설치할 수 있도록 만든 프로젝트입니다.
 
 ![hwp2odt](doc/Hwp2Odt.png)
