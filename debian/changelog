@@ -1,3 +1,18 @@
+libreoffice-hwp2odt (0.4.0+hamonikr1) stable; urgency=medium
+
+  * 릴리즈 업데이트
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 11 Mar 2022 16:58:12 +0900
+
+libreoffice-hwp2odt (0.4.0) stable; urgency=medium
+
+  * 다단 (multi column) 문서 변환
+  * 머리말, 꼬리말에 있는 여러 개 문단 변환
+  * 글자간 거리 (kerning) 근사값으로 보정
+  * A3 가로 용지 설정시 사이즈 오류 수정
+
+ -- K2Web <unknown@unknown.com>  Fri, 11 Mar 2022 16:57:41 +0900
+
 libreoffice-hwp2odt (0.3.7+hamonikr1) stable; urgency=medium
 
   * 릴리즈 업데이트
