@@ -1,4 +1,11 @@
-libreoffice-hwp2odt (0.4.0+hamonikr1) stable; urgency=medium
+libreoffice-hwp2odt (0.5.7+hamonikr1) stable; urgency=low
+
+  * Release in Ubuntu 22.04
+   - Applied latest upstream : https://github.com/ebandal/H2Orestart
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 13 Sep 2023 12:35:33 +0900
+
+ libreoffice-hwp2odt (0.4.0+hamonikr1) stable; urgency=medium
 
   * 릴리즈 업데이트
 

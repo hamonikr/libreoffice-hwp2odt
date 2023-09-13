@@ -1,16 +1,29 @@
 Source: libreoffice-hwp2odt
-Section: utils
+Section: text
 Priority: optional
 Maintainer: HamoniKR <pkg@hamonikr.org>
-Build-Depends: debhelper (>=10), build-essential
-Standards-Version: 4.1.0
+Build-Depends:
+ debhelper-compat (= 13),
+ default-jdk,
+ liblibreoffice-java,
+ unzip,
+ zip,
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/ebandal/H2Orestart.git
+Vcs-Browser: https://github.com/ebandal/H2Orestart
+Homepage: https://github.com/ebandal/H2Orestart
 
 Package: libreoffice-hwp2odt
+Priority: important
 Architecture: all
-Conflicts: 
-Replaces: 
-Depends: libreoffice | libreoffice7.1, libreoffice-writer | libreoffice7.1-writer
-Description: Hwp2Odt is LibreOffice extension that import Hwp file and present in OpenDocumentText format.
-    We release extension binary, but we don't open source code.
-    If you post any errors or bugs in use here on github, we will improve it and distribute it periodically.
-    (https://github.com/k2webtech/hwp2odt)
+Section: doc
+Depends: 
+ default-jre | java6-runtime,
+ ${misc:Depends}, 
+Description: HWP format document to Libreoffice Writer converter
+ This package is an extension that allows you to edit HWP documents in LibreOffice.
+ Check the actual source code at the URL below..
+ .
+ https://github.com/ebandal/H2Orestart
+

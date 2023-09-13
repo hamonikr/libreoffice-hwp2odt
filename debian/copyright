@@ -1,8 +1,13 @@
-License:
+This package was debianized by HamoniKR <pkg@hamonikr.org> on
+Wed, 13 Sep 2023 12:36:05 +0900.
 
-   This package is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License version 3 as published by
-   the Free Software Foundation.
+Upstream :
 
-The Debian packaging is (C) 2020, HamoniKR <pkg@hamonikr.org> and
-is licensed under the GPLv3, see above.
+   https://github.com/ebandal/H2Orestart
+
+Files: 
+ *
+
+Copyright: GPL-3+
+
+License: GPL-3+
