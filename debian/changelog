@@ -1,3 +1,10 @@
+libreoffice-hwp2odt (0.5.7+hamonikr2) stable; urgency=low
+
+  * Release in Ubuntu 22.04
+   - Added dependancy as libreoffice-java-common
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 25 Sep 2023 15:13:42 +0900
+
 libreoffice-hwp2odt (0.5.7+hamonikr1) stable; urgency=low
 
   * Release in Ubuntu 22.04
