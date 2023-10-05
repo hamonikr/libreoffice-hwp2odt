@@ -21,6 +21,8 @@ Section: doc
 Depends: 
  default-jre | java6-runtime,
  libreoffice-java-common,
+ unzip,
+ curl,
  ${misc:Depends}, 
 Description: HWP format document to Libreoffice Writer converter
  This package is an extension that allows you to edit HWP documents in LibreOffice.

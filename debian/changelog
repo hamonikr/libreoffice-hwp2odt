@@ -1,3 +1,19 @@
+libreoffice-hwp2odt (0.5.7+hamonikr4) stable; urgency=low
+
+  * Release in Ubuntu 22.04
+   - Changed extension folder name
+   - Cause extension required unique name
+   - https://wiki.documentfoundation.org/Documentation/DevGuide/Extensions
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 05 Oct 2023 16:18:04 +0900
+ 
+libreoffice-hwp2odt (0.5.7+hamonikr3) stable; urgency=low
+
+  * Release in Ubuntu 22.04
+   - Changed Makefile for debian package
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 05 Oct 2023 15:43:54 +0900
+
 libreoffice-hwp2odt (0.5.7+hamonikr2) stable; urgency=low
 
   * Release in Ubuntu 22.04
