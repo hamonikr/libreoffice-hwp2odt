@@ -6,6 +6,7 @@ Build-Depends:
  debhelper-compat (= 13),
  default-jdk,
  liblibreoffice-java,
+ curl,
  unzip,
  zip,
 Standards-Version: 4.6.0
