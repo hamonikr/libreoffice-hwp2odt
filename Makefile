@@ -1,4 +1,4 @@
-PKG_VER := 0.5.7
+PKG_VER := 0.6.5
 FILE_NAME := H2Orestart.oxt
 
 # 파일 다운로드 URL
