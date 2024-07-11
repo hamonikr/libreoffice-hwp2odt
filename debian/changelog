@@ -1,3 +1,10 @@
+libreoffice-hwp2odt (0.6.5+hamonikr2) stable; urgency=low
+
+  * Release for bookworm arm64
+   - No Changes
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 12 Jul 2024 03:05:44 +0900
+
 libreoffice-hwp2odt (0.6.5+hamonikr1) stable; urgency=low
 
   * Release in Ubuntu 24.04
