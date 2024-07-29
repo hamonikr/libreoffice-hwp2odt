@@ -1,3 +1,10 @@
+libreoffice-hwp2odt (0.6.5+hamonikr3) paektu; urgency=medium
+
+  [Kevin Kim]
+  * Release for HamoniKR paektu
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 29 Jul 2024 15:18:59 +0900
+
 libreoffice-hwp2odt (0.6.5+hamonikr2) stable; urgency=low
 
   * Release for bookworm arm64
